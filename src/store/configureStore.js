@@ -8,7 +8,8 @@ export default () => {
     combineReducers({
       expenses: expensesReducer,
       filters: filtersReducer
-    })
+    }),
+    window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__() // redux devtools set up 
   );
 
   return store;

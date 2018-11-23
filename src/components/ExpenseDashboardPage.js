@@ -1,8 +1,10 @@
 import React from 'react';
 
+import ConnectedExpenseList from './ExpenseList';
+
 const ExpenseDashboardPage = () => (
   <div>
-    This is home page
+    <ConnectedExpenseList />
   </div>
 );
 
